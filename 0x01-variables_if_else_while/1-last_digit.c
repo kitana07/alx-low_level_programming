@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
  * main - Print the last digit
- * Return: Always (Success)
- *
+ * Return: Always (Success) 
  */
 
 int main(void)
