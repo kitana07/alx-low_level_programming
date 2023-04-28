@@ -2,12 +2,12 @@
 
 /**
  * print_line - Draws a straight line
- * @l: The number of lines to draw
+ * @n: The number of lines to draw
  */
 
-void print_line(int l)
+void print_line(int n)
 {
-	if (l <= 0)
+	if (n <= 0)
 	{
 	_putchar('\n');
 	}
@@ -15,7 +15,7 @@ void print_line(int l)
 	{
 	int x;
 	
-	for (x = 1; x <= l; x++)
+	for (x = 1; x <= n; x++)
 	{
 	_putchar('_');
 	}
