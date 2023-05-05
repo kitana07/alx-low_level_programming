@@ -19,7 +19,7 @@ void print_buffer(char *b, int size)
 	}
 	while (k < size)
 	{
-		l = size - k < 10 ? size - 0 : 10;
+		l = size - k < 10 ? size - k : 10;
 		printf("%08x: ", k);
 		for (f = 0; f < 10; f++)
 		{
