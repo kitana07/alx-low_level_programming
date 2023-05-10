@@ -2,8 +2,8 @@
 
 /**
  * set_string - Entry point
- * @s: char 
- * @to: value to change
+ * @s: input value
+ * @to: input value
  * Return: Always 0 (Success)
  */
 
