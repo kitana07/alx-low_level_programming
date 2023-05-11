@@ -1,5 +1,7 @@
 #include "main.h"
 
+int actual_prime(int n, int k);
+
 /**
   * is_prime_number - Return a number if it is a prime
   * @n: the number
