@@ -6,3 +6,4 @@ int _sqrt_recursion(int n);
 int factorial(int n);
 void _print_rev_recursion(char *s);
 int _putchar(char c);
+int actual_sqrt_recursion(int , int q);
