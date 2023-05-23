@@ -9,7 +9,9 @@
 
 int _strlen(char *s)
 {
-	int k = 0;
+	int k;
+
+	k = 0;
 
 	while (s[k] != '\0')
 	{
@@ -27,7 +29,9 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0, f;
+	int l, f;
+
+	l = 0;
 
 	while (src[l] != '\0')
 	{
